@@ -1,0 +1,2 @@
+//Write a query to find Customers and their orders
+SELECT * FROM  Orders o , Customers c where o.Customerid=c.CustomerId;
